@@ -1,0 +1,255 @@
+html {
+  scroll-behavior: smooth; }
+
+a {
+  text-decoration: none; }
+
+section .namebox {
+  width: 100%;
+  height: 990px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  section .namebox .logo {
+    font-size: 70px;
+    font-weight: 500;
+    font-family: 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 12px;
+    color: white;
+    position: relative;
+    top: -60px; }
+  section .namebox #btn-GO {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 3px;
+    color: black;
+    width: 150px;
+    height: 75px;
+    background-color: White;
+    border: 3px solid black;
+    border-radius: 30px;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  section .namebox #btn-GO:hover {
+    transform: translateY(-25px); }
+
+section .htmlbox {
+  width: 100%;
+  height: 990px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  section .htmlbox img {
+    position: relative;
+    top: 20px; }
+  section .htmlbox h3 {
+    font-size: 50px;
+    font-weight: 300;
+    font-family: 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 7px;
+    color: black;
+    position: relative;
+    top: -140px; }
+  section .htmlbox h2 {
+    font-size: 70px;
+    font-weight: 500;
+    font-family: 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 12px;
+    color: black;
+    position: relative;
+    top: 60px; }
+  section .htmlbox .btn-html {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 3px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 75px;
+    background-color: black;
+    border: 3px solid white;
+    border-radius: 30px;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    outline: none;
+    position: relative;
+    top: 120px; }
+  section .htmlbox .btn-html:hover {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 3px;
+    color: black;
+    width: 150px;
+    height: 75px;
+    background-color: White;
+    border: 3px solid black;
+    border-radius: 30px;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    outline: none; }
+
+section .cssbox {
+  width: 100%;
+  height: 990px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  section .cssbox img {
+    position: relative;
+    top: 20px; }
+  section .cssbox h3 {
+    font-size: 50px;
+    font-weight: 300;
+    font-family: 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 7px;
+    color: white;
+    position: relative;
+    top: -140px; }
+  section .cssbox h2 {
+    font-size: 70px;
+    font-weight: 500;
+    font-family: 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 12px;
+    color: white;
+    position: relative;
+    top: 60px; }
+  section .cssbox .btn-css {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 3px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 75px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 30px;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    outline: none;
+    position: relative;
+    top: 120px; }
+  section .cssbox .btn-css:hover {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 3px;
+    color: white;
+    width: 150px;
+    height: 75px;
+    background-color: black;
+    border: 3px solid white;
+    border-radius: 30px;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    outline: none; }
+
+section .scssbox {
+  width: 100%;
+  height: 990px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  section .scssbox img {
+    position: relative;
+    top: 20px; }
+  section .scssbox h3 {
+    font-size: 50px;
+    font-weight: 300;
+    font-family: 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 7px;
+    color: black;
+    position: relative;
+    top: -140px; }
+  section .scssbox h2 {
+    font-size: 70px;
+    font-weight: 500;
+    font-family: 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 12px;
+    color: black;
+    position: relative;
+    top: 60px; }
+  section .scssbox .btn-scss {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 3px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 75px;
+    background-color: black;
+    border: 3px solid white;
+    border-radius: 30px;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    outline: none;
+    position: relative;
+    top: 120px; }
+  section .scssbox .btn-scss:hover {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 3px;
+    color: black;
+    width: 150px;
+    height: 75px;
+    background-color: White;
+    border: 3px solid black;
+    border-radius: 30px;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    outline: none; }
+
+header {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  header button {
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 5px;
+    color: white;
+    width: 35%;
+    height: 50px;
+    background-color: black;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
+    border: black;
+    outline: none; }
+  header button:hover {
+    background-color: white;
+    color: black; }
+
+
+/*# sourceMappingURL=/main.39afc03c.css.map */
