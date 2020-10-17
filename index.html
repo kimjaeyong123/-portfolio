@@ -1,1 +1,48 @@
-<!DOCTYPE html><html lang="kr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"><script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script><script>function o(o){var t=$("#"+o).offset();$("html,body").animate({scrollTop:t.top},100)}</script><link rel="stylesheet" href="/main.294463c7.css"><title>타이틀 뭐로 하지</title></head><body> <header> <button onclick="fnMove('H')" class="btn-hcs" data-target="#">HTML</button> <button onclick="fnMove('C')" class="btn-hcs" data-target="#">CSS</button> <button onclick="fnMove('S')" class="btn-hcs" data-target="#">SCSS</button> </header> <section> <article class="namebox"> <h1 class="logo">JAEYONG KIM</h1> <button onclick="fnMove('H')" id="btn-GO" data-target="#">GO</button> </article> <article class="htmlbox" id="H"> <h3>HTML: Hypertext Markup Language</h3> <img src="/html5 logo.0322a1c2.png" class="logo" alt="HTML5 logo" width="300px" height="300px"> <h2>HTML</h2> <a href="" class="btn-html">Lern More</a> </article> <article class="cssbox" id="C"> <h3>CSS: Cascading Style Sheets</h3> <img src="/css3 logo.281d864f.png" class="logo" alt="HTML5 logo" width="300px" height="300px"> <h2 id="CSS">CSS</h2> <a href="" class="btn-css">Lern More</a> </article> <article class="scssbox" id="S"> <h3>SASS: CSS Preprocessor</h3> <img src="/scss.03cac9e1.png" class="logo" alt="HTML5 logo" width="300px" height="300px"> <h2 id="scss">SASS</h2> <a href="" class="btn-scss">Lern More</a> </article> </section> </body></html>
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <script>
+        function fnMove(sep){
+        var offset = $("#"+sep).offset();
+        $('html,body').animate({scrollTop : offset.top}, 100);
+    }
+    </script>
+    <link rel="stylesheet" href="./main.css">
+    <title>portfolio</title>
+</head>
+<body>
+    <header>
+        <button onclick="fnMove('H')" class="btn-hcs" data-target="#">HTML</button>
+        <button onclick="fnMove('C')" class="btn-hcs" data-target="#">CSS</button>
+        <button onclick="fnMove('S')" class="btn-hcs" data-target="#">SCSS</button>
+    </header>
+    <section>
+        <article class="namebox">
+            <h1 class="logo">JAEYONG KIM</h1>
+            <button onclick="fnMove('H')" id="btn-GO" data-target="#">GO</button>
+        </article>
+        <article class="htmlbox" id="H">
+            <h3>HTML: Hypertext Markup Language</h3>
+            <img src="./img/html5 logo.png" class="logo" alt="HTML5 logo" width="300px" height="300px">
+            <h2>HTML</h2>
+            <a href="" class="btn-html">Lern More</a>
+        </article>
+        <article class="cssbox" id="C">
+            <h3>CSS: Cascading Style Sheets</h3>
+            <img src="./img/css3 logo.png" class="logo" alt="HTML5 logo" width="300px" height="300px">
+            <h2 id="CSS">CSS</h2>
+            <a href="" class="btn-css">Lern More</a>
+        </article>
+        <article class="scssbox" id="S">
+            <h3>SASS: CSS Preprocessor</h3>
+            <img src="img/scss.png" class="logo" alt="HTML5 logo" width="300px" height="300px">
+            <h2 id="scss">SASS</h2>
+            <a href="" class="btn-scss">Lern More</a>
+        </article>
+    </section>
+</body>
+</html>
